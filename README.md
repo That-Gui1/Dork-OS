@@ -2,9 +2,9 @@
 Lightweight DOS
 
 # INFO
-I did use an online tutorial, as well as a tad of AI for fixing problems I couldn't solve. Sources later on.\n
-I programmed the entire OS in Ubuntu (not the desktop environment).\n
-This is actually my final project for an engineering course.\n
+I did use an online tutorial, as well as a tad of AI for fixing problems I couldn't solve. Sources later on.  
+I programmed the entire OS in Ubuntu (not the desktop environment).  
+This is actually my final project for an engineering course.  
 It does come with a few commands that I will list later on.
 
 # COMMANDS
