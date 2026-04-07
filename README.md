@@ -8,10 +8,10 @@ This is actually my final project for an engineering course.
 It does come with a few commands that I will list later on.
 
 # COMMANDS
-craft /message/      - Print a message to the screen\n
-quit                 - Quit the OS\n
+craft /message/      - Print a message to the screen  
+quit                 - Quit the OS\  
 text                 - Open the text editor (W.I.P.)
 
 # SOURCES
-https://dev.to/frosnerd/writing-my-own-vga-driver-22nn (tutorial)\n
+https://dev.to/frosnerd/writing-my-own-vga-driver-22nn (tutorial)  
 (insert ClaudeAI chat here)
