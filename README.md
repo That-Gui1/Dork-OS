@@ -15,7 +15,7 @@ help                 - Open a help menu of commands in the OS
 
 
 # SOURCES
-https://dev.to/frosnerd/writing-my-own-vga-driver-22nn
+https://dev.to/frosnerd/series/9585
 
 # INSTALL PROCESS
 This is programmed using the Ubuntu terminal for WSL, so a couple dependencies are required to emulate this.  
