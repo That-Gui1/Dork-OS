@@ -21,7 +21,7 @@ https://dev.to/frosnerd/writing-my-own-vga-driver-22nn
 This is programmed using the Ubuntu terminal for WSL, so a couple dependencies are required to emulate this.  
 1. Install QEMU using "sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils"
 2. Install "make" (the build tool used to run) with "sudo apt install build-essential", which will install the GCC compiler, and Makefile
-3. Install NASM (the assembler which also comes with the language itself) with "sudo apt install nasm"
+3. Install NASM (the assembler which also comes with the language itself) with "sudo apt install nasm"  
 Now that we have the installations, we can now run the OS
 
 # RUN PROCESS
