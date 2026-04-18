@@ -24,7 +24,7 @@ dorkos_64bit.iso: dorkos_image.bin
 		-c boot/boot.cat \
 		-o $@ iso 2>/dev/null
 
-run: os_image.bin
+run: dorkos_image.bin
 	qemu-system-i386 -drive format=raw,file=dorkos_image.bin,if=floppy
 
 clean:
