@@ -27,5 +27,6 @@ Now that we have the installations, we can now run the OS
 
 # RUN PROCESS
 In order to run, we just need two commands.
-1. run "make clean" in the terminal, which will remove any existing output files. (Important to do this before running every time if editing the OS)
-2. run "make" afterwards to run the OS
+1. In order to properly run the OS, in the terminal, locate to the file that contains all the code (most importantly the Makefile)
+2. run "make clean" in the terminal, which will remove any existing output files. (Important to do this before running every time if editing the OS)
+3. run "make" afterwards to run the OS
