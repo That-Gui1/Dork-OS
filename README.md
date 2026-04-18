@@ -1,17 +1,30 @@
-# Dork OS
-Lightweight DOS
+# DORK OS
+Lightweight terminal-based DOS-inspired OS
 
 # INFO
-I did use an online tutorial, as well as a tad of AI for fixing problems I couldn't solve. Sources later on.  
+I did use an online tutorial, as well as a tad of AI for fixing syntax to match the Ubuntu version of Intel x86 assembly I couldn't solve. Source later on.  
 I programmed the entire OS in Ubuntu (not the desktop environment).  
 This is actually my final project for an engineering course.  
 It does come with a few commands that I will list later on.
 
 # COMMANDS
 craft /message/      - Print a message to the screen  
-quit                 - Quit the OS\  
-text                 - Open the text editor (W.I.P.)
+exit                 - Quit the OS  
+clear                - Clear the screen
+help                 - Open a help menu of commands in the OS
+
 
 # SOURCES
-https://dev.to/frosnerd/writing-my-own-vga-driver-22nn (tutorial)  
-(insert ClaudeAI chat here)
+https://dev.to/frosnerd/writing-my-own-vga-driver-22nn
+
+# INSTALL PROCESS
+This is programmed using the Ubuntu terminal for WSL, so a couple dependencies are required to emulate this.  
+1. Install QEMU using "sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils"
+2. Install "make" (the build tool used to run) with "sudo apt install build-essential", which will install the GCC compiler, and Makefile
+3. Install NASM (the assembler which also comes with the language itself) with "sudo apt install nasm"
+Now that we have the installations, we can now run the OS
+
+# RUN PROCESS
+In order to run, we just need two commands.
+1. run "make clean" in the terminal, which will remove any existing output files. (Important to do this before running every time if editing the OS)
+2. run "make" afterwards to run the OS
