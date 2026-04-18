@@ -107,7 +107,8 @@ idt_register_t idt_reg;
 
 void main() {
 	clear_screen();
-	print_string("DORK OS v0.1-beta (build-ver: tst-01)\n\n");
+	print_string("DORK OS v0.1-beta (build-ver: rel-01)\n");
+	print_string("TIP: type HELP for a list of commands!\n\n");
 	print_string("Installing ISR requirements...\n");
 	isr_install();
 	print_string("ISR requirements installed!\n");
@@ -118,8 +119,6 @@ void main() {
 	print_string("Initializing keyboard (IRQ 1)...\n");
 	print_string("Finished initializing keyboard (IRQ 1)!\n\n");
 	init_keyboard();
-	
-	print_string("TIP: type HELP for a list of commands!\n\n");
 
 	print_string("> ");
 	asm volatile("sti");
@@ -139,16 +138,22 @@ void execute_command(char *input) {
 		print_string("DORK OS v0.1-beta (build-ver: tst-01)\n\n");
 		return;
 	} else if (compare_string(input, "HELP") == 0) {
-		print_string("EXIT      - Leave the OS\n");
+		print_string("EXIT      - Leave the OS\n");:
 		print_string("CLEAR     - Clear the screen\n");
 		print_string("HELP      - List of available commands\n");
 		print_string("CRAFT ..  - Print what comes after CRAFT\n");
+		print_string("INFO      - Provide info on the OS and development\n";
 		return;
 	} else if (string_length(input) >= 6 && input[0] == 'C' && input[1] == 'R' && input[2] == 'A' && input[3] == 'F' && input[4] == 'T' && input[5] == ' ') {
 		print_string(input + 6);
        		print_nl();
 		return;
-	}	
+	} else if (compare_string(input, "INFO") == 0) {
+		print_string("BEGAN DEVELOPMENT: 4th or 5th April , 2026\n");
+		print_string("FIRST RELEASED: 18/04/26\n");
+		print_string("DEVELOPED BY: Ti Reynolds, Dilnoor Toor\n");
+		return;
+	}
 
 	if (string_length(input) > 0) {
 		print_string("Unknown command found: ");
