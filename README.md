@@ -10,7 +10,7 @@ It does come with a few commands that I will list later on.
 # COMMANDS
 craft /message/      - Print a message to the screen  
 exit                 - Quit the OS  
-clear                - Clear the screen
+clear                - Clear the screen  
 help                 - Open a help menu of commands in the OS
 
 
