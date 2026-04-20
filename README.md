@@ -2,7 +2,7 @@
 Lightweight terminal-based DOS-inspired OS
 
 # INFO
-I did use an online tutorial, as well as a tad of AI for fixing syntax to match the Ubuntu version of Intel x86 assembly I couldn't solve. Source later on.  
+I did use an online tutorial, but I fixed the code on the tutorial to match the assembly used in the Ubuntu terminal. Source later on.  
 I programmed the entire OS in Ubuntu (not the desktop environment).  
 This is actually my final project for an engineering course.  
 It does come with a few commands that I will list later on.
