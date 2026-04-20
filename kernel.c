@@ -138,11 +138,11 @@ void execute_command(char *input) {
 		print_string("DORK OS v0.1-beta (build-ver: tst-01)\n\n");
 		return;
 	} else if (compare_string(input, "HELP") == 0) {
-		print_string("EXIT      - Leave the OS\n");:
+		print_string("EXIT      - Leave the OS\n");
 		print_string("CLEAR     - Clear the screen\n");
 		print_string("HELP      - List of available commands\n");
 		print_string("CRAFT ..  - Print what comes after CRAFT\n");
-		print_string("INFO      - Provide info on the OS and development\n";
+		print_string("INFO      - Provide info on the OS and development\n)";
 		return;
 	} else if (string_length(input) >= 6 && input[0] == 'C' && input[1] == 'R' && input[2] == 'A' && input[3] == 'F' && input[4] == 'T' && input[5] == ' ') {
 		print_string(input + 6);
