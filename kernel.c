@@ -151,7 +151,7 @@ void execute_command(char *input) {
 	} else if (compare_string(input, "INFO") == 0) {
 		print_string("BEGAN DEVELOPMENT: 4th or 5th April , 2026\n");
 		print_string("FIRST RELEASED: 18/04/26\n");
-		print_string("DEVELOPED BY: A couple of nerds\n");
+		print_string("DEVELOPED BY: A nerd\n");
 		return;
 	}
 
